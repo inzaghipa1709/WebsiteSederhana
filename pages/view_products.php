@@ -111,4 +111,4 @@ if($pages>1){
 	}
 	
 	include('../layouts/footer.php');
-	?>
+?>

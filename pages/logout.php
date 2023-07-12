@@ -1,4 +1,6 @@
 <?php
+require ('../layouts/header.php');
+
 #template
 session_start();
 if(!isset($_SESSION['user_id'])) {
@@ -27,5 +29,5 @@ include('../layouts/header.php');
 <p>Anda sekarang telah logged out.<?php echo $_COOKIE['first_name'];?></p>
 
 <?php
-include('../includes/footer.php');
+include('../layouts/footer.php');
 ?>

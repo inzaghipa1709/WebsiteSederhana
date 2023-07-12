@@ -1,6 +1,6 @@
 <?php
 $fileclass = "../css/style.css";
-$page_title = "Trip Calculator";
+$page_title = "Add Products";
 $linkcalculator = "calculator.php";
 $linkregister = "register.php";
 $view_user = "view_user.php";

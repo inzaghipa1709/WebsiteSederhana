@@ -1,6 +1,5 @@
 <?php
-
-
+require ('../layouts/header.php');
 
 #template
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -20,4 +19,6 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     mysqli_close($dbc);
 }
+
+include('../layouts/footer.php');
 ?>

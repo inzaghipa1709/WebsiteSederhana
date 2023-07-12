@@ -1,5 +1,5 @@
 <?php
-$page_title = "Delete User";
+$page_title = "Delete Product";
 
 include('../layouts/header.php');
 
