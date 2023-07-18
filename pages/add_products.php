@@ -2,14 +2,14 @@
 $fileclass = "../css/style.css";
 $page_title = "Add Products";
 $linkcalculator = "calculator.php";
-$linkregister = "register.php";
+$add_products = "add_products.php";
 $view_user = "view_user.php";
 $password = "password.php";
 
 include ('../layouts/header.php');
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    include ('../../include/mysqli_connect.php');
+    include ('../includes/mysqli_connect.php');
     $pn = trim($_POST['produk_nama']);
     $c = trim($_POST['kategori']);
     $hs = trim($_POST['harga_satuan']);

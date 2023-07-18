@@ -9,7 +9,7 @@ $password = "password.php";
 include ('../layouts/header.php');
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    include ('../../include/mysqli_connect.php');
+    include ('../includes/mysqli_connect.php');
     $fn = trim($_POST['first_name']);
     $ln = trim($_POST['last_name']);
     $e = trim($_POST['email']);
